@@ -48,7 +48,9 @@ A major challenge is therefore to **accurately quantify chloroplast features in 
 💻 Code
 
 The image segmentation workflow was implemented in Python using Google Colab.
-👉 [Open the Google Colab notebook]([YOUR_COLAB_LINK_HERE](https://colab.research.google.com/drive/1ZdkMSUMCL4flSlvxHc1M6uioEyRkMJ41?usp=sharing))
+
+👉 [Open the Google Colab notebook]: [https://colab.research.google.com/drive/1ZdkMSUMCL4flSlvxHc1M6uioEyRkMJ41?usp=sharing]
+
 👉 code/
 └── Cellpose-sam-seg.ipynb
 
