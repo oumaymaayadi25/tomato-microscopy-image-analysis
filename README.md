@@ -1,7 +1,7 @@
 # tomato-microscopy-image-analysis
 Image analysis and automated segmentation of tomato fruit microscopy images using Fiji/ImageJ and Cellpose-SAM.
 
-## Overview
+## 1. Overview
 
 This project was conducted as part of my final-year engineering project at INRAE PACA, Avignon, France
 
@@ -9,9 +9,11 @@ The project investigated the effects of genetic variability and fruit developmen
 
 ## Research question
 
-How does genetic variability influence chloroplast abundance and pigment-related traits during tomato fruit development?
+How do chloroplast abundance, size, and spatial distribution vary across tomato genotypes and fruit developmental stages, and how are these traits related to carotenoid accumulation?
 
-Tomato varieties
+## Workflow
+
+Tomato varieties (4)
 ↓
 Fruit developmental stages
 ↓
@@ -29,4 +31,24 @@ Biochemical measurements
 ↓
 Data interpretation
 
+## 2. Context & Problematic
+
+### Context
+
+Chloroplasts are abundant during early tomato fruit development. They contain chlorophyll and support photosynthesis, while their abundance, size, and spatial distribution may influence photosynthetic activity and carotenoid accumulation during fruit development.
+
+### Problematic
+
+Although carotenoids are important for tomato fruit quality and nutritional value, the relationship between **chloroplast structural traits** and
+**carotenoid accumulation during fruit ripening** remains incompletely characterized.
+
+A major challenge is therefore to **accurately quantify chloroplast features in situ** and investigate how these cellular traits vary across genetically diverse tomato varieties and developmental stages.
+
+### Google colab link 
+💻 Code
+
+The image segmentation workflow was implemented in Python using Google Colab.
+👉 [Open the Google Colab notebook]([YOUR_COLAB_LINK_HERE](https://colab.research.google.com/drive/1ZdkMSUMCL4flSlvxHc1M6uioEyRkMJ41?usp=sharing))
+👉 code/
+└── Cellpose-sam-seg.ipynb
 
