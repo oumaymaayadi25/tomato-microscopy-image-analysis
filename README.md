@@ -7,11 +7,29 @@ This project was conducted as part of my final-year engineering project at INRAE
 
 The project investigated the effects of genetic variability and fruit developmental stage on chloroplast abundance, chlorophyll production and carotenoid biosynthesis in tomato (Solanum lycopersicum).
 
-## Research question
+
+## 2. Context & Problematic
+
+### Context
+
+Chloroplasts are abundant during early tomato fruit development. They contain chlorophyll and support photosynthesis, while their abundance, size, and spatial distribution may influence photosynthetic activity and carotenoid accumulation during fruit development.
+
+### Problematic
+
+Although carotenoids are important for tomato fruit quality and nutritional value, the relationship between **chloroplast structural traits** and
+**carotenoid accumulation during fruit ripening** remains incompletely characterized.
+
+A major challenge is therefore to **accurately quantify chloroplast features in situ** and investigate how these cellular traits vary across genetically diverse tomato varieties and developmental stages.
+
+## 3. Research question
+
+Although carotenoids are important for tomato fruit quality and nutritional value, the relationship between chloroplast structural traits and carotenoid accumulation during fruit ripening remains incompletely characterized.
+
+A major challenge is therefore to accurately quantify chloroplast features in situ and investigate how these cellular traits vary across genetically diverse tomato varieties and developmental stages.
 
 How do chloroplast abundance, size, and spatial distribution vary across tomato genotypes and fruit developmental stages, and how are these traits related to carotenoid accumulation?
 
-## Workflow
+## 4. Workflow
 
 Tomato varieties (4)
 ↓
@@ -31,26 +49,17 @@ Biochemical measurements
 ↓
 Data interpretation
 
-## 2. Context & Problematic
+## 5.  Cellpose-SAM
 
-### Context
+Cellpose-SAM was used to perform automated segmentation of chloroplasts from microscopy images.
 
-Chloroplasts are abundant during early tomato fruit development. They contain chlorophyll and support photosynthesis, while their abundance, size, and spatial distribution may influence photosynthetic activity and carotenoid accumulation during fruit development.
+The model identifies individual objects in the image and generates segmentation masks that can subsequently be analyzed quantitatively.
 
-### Problematic
-
-Although carotenoids are important for tomato fruit quality and nutritional value, the relationship between **chloroplast structural traits** and
-**carotenoid accumulation during fruit ripening** remains incompletely characterized.
-
-A major challenge is therefore to **accurately quantify chloroplast features in situ** and investigate how these cellular traits vary across genetically diverse tomato varieties and developmental stages.
-
-### Google colab link 
-💻 Code
+## 💻 Code
 
 The image segmentation workflow was implemented in Python using Google Colab.
 
 👉 [Open the Google Colab notebook]: [https://colab.research.google.com/drive/1ZdkMSUMCL4flSlvxHc1M6uioEyRkMJ41?usp=sharing]
-
-👉 code/
-└── Cellpose-sam-seg.ipynb
+or 
+*** see Cellpose-sam-seg.ipynb file ***
 
